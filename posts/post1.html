@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computational Biophysics in Drug Discovery | RJ Insights</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    .container { max-width: 900px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; }
+    footer { text-align: center; padding: 1rem; background: #333; color: #fff; margin-top: 2rem; }
+    .footer-buttons a { display: inline-block; margin: 0 0.5rem; padding: 0.5rem 1rem; background: #555; color: #fff; text-decoration: none; border-radius: 5px; transition: background 0.3s ease; }
+    .footer-buttons a:hover { background: #777; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Computational Biophysics in Drug Discovery</h2>
+    <h4>Dr. Janmejaya Rout</h4>
+    <p style="text-align: right;"><em>February 15, 2026</em></p>
+    <h3>Introduction</h3>
+    <p style="text-align: justify;">Computational biophysics lies at the intersection of physics, mathematics, and computer science, offering powerful tools to probe biological systems at atomic resolution. In drug discovery, it has become indispensable, enabling researchers to simulate and predict how candidate molecules interact with complex biological targets such as proteins, nucleic acids, and membranes.</p>
+
+<p style="text-align: justify;">Traditional drug development often relies on large-scale experimental screening, a process that is both costly and time-intensive. In contrast, computational approaches, particularly molecular docking and molecular dynamics (MD), have transformed the field. MD simulations provide a dynamic view of biomolecules, bridging the gap between static crystal structures and the fluid reality of living systems. When combined with docking, enhanced sampling, and free energy calculations, these methods allow scientists to explore conformational changes, binding mechanisms, and thermodynamic stability before advancing compounds to laboratory testing.</p>
+
+<h3>Molecular Docking</h3>
+<p style="text-align: justify;">Molecular docking is a cornerstone of Structure-Based Drug Design (SBDD), providing a computational framework to predict how small molecules orient and interact with biological targets. By estimating binding poses and affinities, docking accelerates the identification and refinement of drug candidates before costly experimental validation. The availability of high-resolution structural data from X-ray crystallography or cryo-electron microscopy in repositories like the Protein Data Bank has further strengthened its utility. Molecular Docking is most commonly used for target identification, virtual screening, lead optimization, and drug repurposing.</p>
+<p style="text-align: justify;"><ul>
+<li><b>Target identification:</b> Docking helps researchers locate active or allosteric sites on proteins.</li>
+<li><b>Virtual screening:</b> Millions of compounds can be computationally tested, narrowing down candidates before experimental validation.</li>
+<li><b>Lead optimisation:</b> Chemists can tweak molecules to improve potency, selectivity, and reduce side effects.</li>
+<li><b>Drug repurposing:</b> Approved drugs can be screened against new targets, a strategy that proved vital during recent health crises such as Covid-19.</li>
+</ul></p>
+<figure style="text-align:center";>
+  <img src="../assets/images/post1_figure1.png" alt="Receptor-ligand Docking" width="500" height="150"></figure>
+  <figcaption style="text-align:justify";><b>Figure 1.</b> Illustration of a ligand docked into a protein binding pocket during docking.</figcaption>
+
+<h3>Molecular Dynamics</h3>
+<p style="text-align: justify;">Proteins are not rigid structures. They bend, twist, and shift into different shapes. Molecular Dynamics (MD) simulations capture this motion by solving Newton’s equations of motion, offering a time-resolved and atomistic view of biomolecular systems. This enables exploration of protein flexibility, ligand-binding dynamics, conformational transitions, and thermodynamic properties.</p>
+<p style="text-align: justify;"><ul>
+<li><b>Protein flexibility:</b> MD reveals hidden binding pockets and allosteric mechanisms.</li>
+<li><b>Docking refinement:</b> It tests whether predicted binding poses remain stable in realistic, solvent-filled environments.</li>
+<li><b>Binding free energy calculations:</b> Methods like MM-PBSA and Free Energy Perturbation (FEP) provide quantitative estimates of ligand affinity, often with near-experimental accuracy.</li>
+<li><b>Enhanced sampling:</b> Techniques such as metadynamics or replica exchange MD help explore rare events like ligand unbinding or protein folding/unfolding.</li></ul></p>
+<figure style="text-align:center";>
+  <img src="../assets/images/post1_figure2.png" alt="Conformational Dynamics" width="500" height="150"></figure>
+  <figcaption style="text-align:justify";><b>Figure 2.</b> Schematic representation of protein conformational transition, showing progression from the native folded (left) to partially unfolded (middle) and fully denatured (right) states, as observed in MD simulations.</figcaption>
+
+<h3>Applications</h3>
+<p style="text-align: justify;">Docking and MD are now integrated into nearly every stage of drug development including</p>
+<p style="text-align: justify;"><ul>
+<li><b>Hit validation:</b> Confirming stability of docked complexes.</li>
+<li><b>Lead optimization:</b> Predicting affinity changes with FEP.</li>
+<li><b>Selectivity profiling:</b> Comparing ligand binding across related proteins.</li>
+<li><b>Mechanistic insights:</b> Understanding resistance mutations.</li>
+<li><b>Membrane protein modeling:</b> Simulating GPCRs and ion channels in lipid bilayers.</li></ul></p>
+<p style="text-align: justify;">Pharmaceutical companies increasingly rely on MD studies, especially FEP workflows as decision-making tools that reduce experimental cycles and accelerate development timelines.</p>
+<figure style="text-align:center";>
+  <img src="../assets/images/post1_figure3.png" alt="Conventional vs Enhanced Sampling" width="400" height="250"></figure>
+  <figcaption style="text-align:justify";><b>Figure 3.</b> Conventional vs enhanced sampling in MD simulation showing improved exploration of conformational space.</figcaption>
+
+<h3>Challenges and Future Directions</h3>
+<p style="text-align: justify;">Despite its transformative role, computational biophysics faces challenges.</p>
+<p style="text-align: justify;"><ul>
+<li>Docking can oversimplify protein flexibility and solvent effects.</li>
+<li>MD requires significant computational resources.</li>
+<li>Force field accuracy and sampling limitations remain hurdles.</li></ul></p>
+<p style="text-align: justify;">Though there are challenges, advances in GPU computing, improved force fields, and hybrid physics-based machine learning approaches are steadily overcoming these barriers. The integration of AI with biophysics promises even greater accuracy and scalability in the near future.</p>
+
+<h3>Conclusion</h3>
+<p style="text-align: justify;">Computational biophysics is no longer just a supporting tool. It has become a driving force in modern drug discovery. Docking provides speed and efficiency, while MD adds realism and depth. Together, they enable scientists to design drugs more intelligently, reducing experimental costs to tackle targets once thought “undruggable.”  With ongoing advances in high-performance computing and machine learning, computational biophysics will continue to play a pivotal role in guiding pharmaceutical innovations.</p>
+
+<h3>References</h3>
+<ol>
+<li>Kitchen, D., Decornez, H., Furr, J. et al. Docking and scoring in virtual screening for drug discovery: methods and applications. Nat Rev Drug Discov 3, 935–949 (2004).</li>
+<li>Hollingsworth, Scott A. et al. Molecular Dynamics Simulation for All.Neuron, 99(6), 1129 - 1143 (2018)</li>
+<li>Wang, L., et al. Accurate and Reliable Prediction of Relative Ligand Binding Potency in Prospective Drug Discovery by Way of a Modern Free-Energy Calculation Protocol and Force Field. JACS, 137(7), 2695–2703 (2015).</li>
+<li>Lionta, E., et al. Structure-Based Virtual Screening for Drug Discovery: Principles, Applications and Recent Advances. Current Topics in Medicinal Chemistry, 14(16), 1923–1938 (2014).</li>
+<li>Sliwoski, Gregory et al. Computational Methods in Drug Discovery. Pharmacological Reviews, 66(1), 334–395 (2014).</li>
+</ol>
+
+  </div>
+  <footer>
+    <p>&copy; 2026 Janmejaya Rout | RJ Insights</p>
+    <div class="footer-buttons">
+      <a href="YOUR_GOOGLE_SCHOLAR_LINK" target="_blank">Google Scholar</a>
+      <a href="YOUR_LINKEDIN_LINK" target="_blank">LinkedIn</a>
+      <a href="YOUR_X_LINK" target="_blank">X</a>
+    </div>
+  </footer>
+</body>
+</html>
