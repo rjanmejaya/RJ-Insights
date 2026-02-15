@@ -1,0 +1,12 @@
+/* General unordered and ordered lists */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;   /* controls indentation */
+  text-align: justify;  /* makes text justified */
+}
+
+/* List items */
+ul li, ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}

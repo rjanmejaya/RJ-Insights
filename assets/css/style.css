@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav {
+  background: #444;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #444;
+}
+
+.blog-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.blog-button:hover {
+  background: #555;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-list li {
+  margin-bottom: 1rem;
+}
+
+.blog-list a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog-list a:hover {
+  text-decoration: underline;
+}
+
+.connect-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect-form input,
+.connect-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.connect-form button {
+  padding: 0.8rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.connect-form button:hover {
+  background: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.footer-buttons a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.footer-buttons a:hover {
+  background: #777;
+}
